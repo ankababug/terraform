@@ -3,7 +3,7 @@ pipeline {
  stages {
   stage('checkout') {
     steps {
-       git branch: 'master', url: 'https://github.com/ankababug/prod.git'
+       git branch: 'master', url: 'https://github.com/ankababug/terraform.git'
     }
   }
  stage('Provision infrastructure') {
